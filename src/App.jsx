@@ -62,8 +62,16 @@ function FormularioEstudiante({ onEnviar }) {
         <div style={{ fontSize: 60 }}>✅</div>
         <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 24, marginTop: 16, color: "#1a202c" }}>¡Pedido registrado!</div>
         <div style={{ color: "#718096", marginTop: 10, fontSize: 15 }}>
-          Tu pedido fue recibido. Recuerda que la producción inicia cuando realices el <strong>abono del 50%</strong>.
-        </div>
+  Tu pedido fue recibido. Recuerda que la producción inicia cuando realices el <strong>abono del 50%</strong>.
+</div>
+<div style={{ marginTop: 16, background: "#f0fff4", border: "1.5px solid #9ae6b4", borderRadius: 12, padding: "14px 18px" }}>
+  <div style={{ fontSize: 13, color: "#276749", fontWeight: 700 }}>📲 ¿Cómo pagar?</div>
+  <div style={{ fontSize: 14, color: "#2d3748", marginTop: 6 }}>
+    Envía tu abono por <strong>Nequi / Bancolombia</strong> al número:<br/>
+    <strong style={{ fontSize: 18 }}>3215432237</strong><br/>
+    <span style={{ fontSize: 12, color: "#718096" }}>Envía el comprobante por WhatsApp al mismo número.</span>
+  </div>
+</div>
         <div style={{ marginTop: 20, background: "#f7f3ff", borderRadius: 12, padding: "14px 18px" }}>
           <div style={{ fontSize: 13, color: "#553c9a" }}>Abono mínimo para iniciar</div>
           <div style={{ fontSize: 26, fontWeight: 700, color: "#553c9a" }}>{fmt(MODELOS[form.modelo].precio * 0.5)}</div>
