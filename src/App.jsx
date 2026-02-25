@@ -78,7 +78,7 @@ function FormularioEstudiante({ onEnviar }) {
         <div style={{ textAlign: "center", marginBottom: 24 }}>
           <img src="/logo.png" style={{ width: 140, height: 140, objectFit: "contain" }} />
           <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 22, color: "#1a202c", marginTop: 8 }}>Calzado de Enfermería</div>
-          <div style={{ color: "#718096", fontSize: 13, marginTop: 4 }}>Inscripción · calzado de enfermería</div>
+          <div style={{ color: "#718096", fontSize: 13, marginTop: 4 }}>Inscripción · Calzado de enfermería</div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
