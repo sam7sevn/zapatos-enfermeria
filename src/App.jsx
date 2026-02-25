@@ -7,7 +7,7 @@ import {
 // ============================================================
 // 🔧 CONFIGURA AQUÍ TU CONTRASEÑA DE ADMIN Y TUS PRECIOS
 // ============================================================
-const ADMIN_PASSWORD = "zapatos2025";   // ← cambia esto
+const ADMIN_PASSWORD = "Mellamo123";   // ← cambia esto
 const MODELOS = {
   mujer:  { label: "👩 Dama",      precio: 45000 },
   hombre: { label: "👨 Caballero", precio: 48000 },
