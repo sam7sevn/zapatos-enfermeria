@@ -76,9 +76,9 @@ function FormularioEstudiante({ onEnviar }) {
     <div style={{ minHeight: "100vh", background: "linear-gradient(135deg,#f7f3ff 0%,#e8f4fd 50%,#f0fff4 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 16 }}>
       <div style={{ background: "#fff", borderRadius: 20, padding: "32px 28px", maxWidth: 440, width: "100%", boxShadow: "0 8px 40px rgba(0,0,0,0.1)" }}>
         <div style={{ textAlign: "center", marginBottom: 24 }}>
-          <img src="/logo.png" style={{ width: 80, height: 80, objectFit: "contain" }} />
+          <img src="/logo.png" style={{ width: 140, height: 140, objectFit: "contain" }} />
           <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 22, color: "#1a202c", marginTop: 8 }}>Calzado de Enfermería</div>
-          <div style={{ color: "#718096", fontSize: 13, marginTop: 4 }}>Inscripción · 3er semestre</div>
+          <div style={{ color: "#718096", fontSize: 13, marginTop: 4 }}>Inscripción · calzado de enfermería</div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
