@@ -264,7 +264,7 @@ function AdminPanel({ pedidos, onAbonar, onUpdateStatus, onDelete, onLogout }) {
         <div style={{ maxWidth:820, margin:"0 auto" }}>
           <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center" }}>
             <div>
-              <div style={{ fontFamily:"'Playfair Display',serif", fontSize:24 }}>👟 Panel de Administración</div>
+              <div style={{ fontFamily:"'Playfair Display',serif", fontSize:24, display:"flex", alignItems:"center", gap:10 }}><img src="/logo.png" style={{ width:40, height:40, objectFit:"contain" }} /> Panel de Administración</div>
               <div style={{ color:"#a0aec0", fontSize:12, marginTop:2 }}>Calzado de Enfermería · 3er semestre</div>
             </div>
             <button onClick={onLogout} style={{ background:"rgba(255,255,255,0.1)", color:"#fff", border:"1px solid rgba(255,255,255,0.2)", borderRadius:8, padding:"8px 14px", fontSize:13, cursor:"pointer" }}>
@@ -303,7 +303,7 @@ function AdminPanel({ pedidos, onAbonar, onUpdateStatus, onDelete, onLogout }) {
 
         {filtrados.length === 0 ? (
           <div style={{ textAlign:"center", padding:"60px 20px", color:"#a0aec0" }}>
-            <div style={{ fontSize:48 }}>👟</div>
+            <img src="/logo.png" style={{ width: 80, height: 80, objectFit: "contain" }} />
             <div style={{ fontFamily:"'Playfair Display',serif", fontSize:20, marginTop:10, color:"#4a5568" }}>
               {pedidos.length===0 ? "Aún no hay pedidos" : "Sin resultados"}
             </div>
