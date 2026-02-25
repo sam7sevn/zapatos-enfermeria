@@ -14,7 +14,7 @@ const MODELOS = {
 };
 // ============================================================
 
-const TALLAS = ["34","35","36","37","38","39","40","41","42","43","44"];
+const TALLAS = ["35","36","37","38","39","40","41","42"];
 
 const fmt = (n) =>
   new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", minimumFractionDigits: 0 }).format(n);
